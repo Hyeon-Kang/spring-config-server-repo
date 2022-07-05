@@ -1,0 +1,10 @@
+## prod_example.yml
+database.driverClassName: "org.h2.Driver"
+datasource.url: "jdbc:h2:mem:"
+datasource.username: "username"
+datasource.password: "password"
+sample.env: "stg"
+sample.list:
+  - "aa"
+  - "bb"
+  - 1234
